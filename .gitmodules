@@ -6,3 +6,7 @@
     path = apps/erpnext
     url = https://github.com/karthik3854k/erpnext.git
 
+
+[submodule "apps/payments"]
+    path = apps/payments
+    url = https://github.com/karthik3854k/payments.git
