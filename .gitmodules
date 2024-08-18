@@ -10,3 +10,6 @@
 [submodule "apps/payments"]
     path = apps/payments
     url = https://github.com/karthik3854k/payments.git
+[submodule "apps/pocketfm"]
+    path = apps/pocketfm
+    url = https://github.com/karthik3854k/pocketfm.git
