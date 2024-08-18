@@ -13,3 +13,6 @@
 [submodule "apps/pocketfm"]
     path = apps/pocketfm
     url = https://github.com/karthik3854k/pocketfm.git
+[submodule "apps/political"]
+    path = apps/political
+    url = https://github.com/karthik3854k/political.git
