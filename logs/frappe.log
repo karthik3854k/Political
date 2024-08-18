@@ -1,0 +1,155 @@
+2024-07-25 13:07:49,094 ERROR frappe New Exception collected in error log
+Site: row.localhost
+Form Dict: {}
+2024-07-25 13:22:27,953 ERROR frappe Could not take error snapshot: No module named 'payments'
+Site: row.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/app.py", line 172, in init_request
+    frappe.init(site=site, sites_path=_sites_path, force=True)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 312, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1738, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1586, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1551, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1581, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1522, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'payments'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/utils/error.py", line 87, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/utils/error.py", line 62, in log_error
+    error_log = frappe.get_doc(
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1379, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/model/document.py", line 85, in get_doc
+    controller = get_controller(doctype)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/model/base_document.py", line 89, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1687, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/utils/caching.py", line 47, in wrapper
+    return func(*args, **kwargs)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1656, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1522, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'payments'
+2024-08-16 17:56:51,328 ERROR frappe Could not take error snapshot: 'NoneType' object has no attribute 'get'
+Site: finse.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/app.py", line 172, in init_request
+    frappe.init(site=site, sites_path=_sites_path, force=True)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 312, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1738, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1586, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1551, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1581, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1522, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'political'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/utils/error.py", line 87, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/utils/error.py", line 62, in log_error
+    error_log = frappe.get_doc(
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/__init__.py", line 1379, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/model/document.py", line 85, in get_doc
+    controller = get_controller(doctype)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/model/base_document.py", line 91, in import_controller
+    module = load_doctype_module(doctype, module_name)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/modules/utils.py", line 247, in load_doctype_module
+    app = get_module_app(module)
+  File "/home/karthik/Desktop/work/frappe-bench/apps/frappe/frappe/modules/utils.py", line 270, in get_module_app
+    app = frappe.local.module_app.get(scrub(module))
+AttributeError: 'NoneType' object has no attribute 'get'
+2024-08-17 11:46:36,929 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doctype': 'Grievances', 'name': 'new-grievances-bqsfxgnwlr', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-08-17 11:46:40,476 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doctype': 'Grievances', 'name': 'new-grievances-bqsfxgnwlr', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-08-17 12:00:35,252 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doctype': 'Grievances', 'name': 'new-grievances-qikkyjcqpe', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-08-17 12:07:31,646 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doctype': 'Grievances', 'name': 'new-grievances-zyitfkgxkf', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-08-17 12:13:46,860 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doctype': 'Grievances', 'name': 'new-grievances-zqxqujojdd', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-08-17 12:29:56,615 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Grievances","name":"new-grievances-gtndkptemn","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Cancelled","department":"PR & RB","officer":"Ballama","name1":"karthik","village":"Chigurupadu","comment":"providing Wrong  details"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-08-17 12:30:02,828 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doctype': 'Grievances', 'name': 'new-grievances-gtndkptemn', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-08-17 12:31:03,998 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Grievances","name":"new-grievances-qbsimoxsvh","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Cancelled","name1":"siva sankar","father_name":"narasimha Rao","village":"Bayyavaram","mobile_number":"7981154825","department":"PR & RB","officer":"Ballama","comment":"Providing Wrong Details"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-08-17 12:32:50,676 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Grievances","name":"new-grievances-kvwgpmoraa","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Cancelled","name1":"siva sanakr mandadi","father_name":"narasimha Rao","village":"Bayyavaram","mobile_number":"7981154826","department":"PR & RB","officer":"Ballama","comment":"Providing Wrong Details"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-08-17 12:35:14,146 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Grievances","name":"new-grievances-kjojfjrozx","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Pending"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-08-17 12:35:20,132 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doctype': 'Grievances', 'name': 'new-grievances-kjojfjrozx', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-08-17 12:35:20,447 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doctype': 'Grievances', 'name': 'new-grievances-kjojfjrozx', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-08-17 12:35:20,700 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doctype': 'Grievances', 'name': 'new-grievances-kjojfjrozx', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-08-17 12:35:32,819 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Grievances","name":"new-grievances-wnnvfjxaqc","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Pending"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-08-17 12:36:44,638 ERROR frappe New Exception collected in error log
+Site: finse.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Grievances","name":"new-grievances-yyytzuhmdj","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Pending"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

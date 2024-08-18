@@ -1,0 +1,61 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "302339998f89cd1e6482a9c51f70dda98714a8c7",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "16.0.0-dev"
+    },
+    "pocketfm": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "26f9e01293589a12072a8dcf388829e869772e5a",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "payments": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "f84edf918e52d07c1f612e6f8bbf6aafba1abd47",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    },
+    "webshop": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "252b332e01782045d789d7bb6f7c7a1c5c543063",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    },
+    "political": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "ffacb145e20321fc26187f475503d05ac12ed89f",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "0.0.1"
+    }
+}

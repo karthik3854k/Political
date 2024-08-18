@@ -1,0 +1,314 @@
+2024-07-25 12:36:43,577 DEBUG cd frappe-bench && python3 -m venv env
+2024-07-25 12:36:45,641 DEBUG cd frappe-bench && /home/karthik/Desktop/work/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-07-25 12:36:47,566 DEBUG cd frappe-bench && /home/karthik/Desktop/work/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-07-25 12:36:48,758 LOG Getting frappe
+2024-07-25 12:36:48,758 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-07-25 12:37:10,095 LOG Installing frappe
+2024-07-25 12:37:10,096 DEBUG cd /home/karthik/Desktop/work/frappe-bench && /home/karthik/Desktop/work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/karthik/Desktop/work/frappe-bench/apps/frappe 
+2024-07-25 12:38:06,345 DEBUG cd /home/karthik/Desktop/work/frappe-bench/apps/frappe && yarn install --check-files
+2024-07-25 12:38:09,861 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-25 12:38:09,861 DEBUG cd frappe-bench && bench build
+2024-07-25 12:38:09,937 INFO /usr/local/bin/bench build
+2024-07-25 12:38:24,668 LOG setting up backups
+2024-07-25 12:38:24,672 LOG backups were set up
+2024-07-25 12:38:24,672 INFO Bench frappe-bench initialized
+2024-07-25 12:38:34,561 INFO /usr/local/bin/bench start
+2024-07-25 12:38:34,750 INFO /usr/local/bin/bench serve --port 8000
+2024-07-25 12:38:34,754 INFO /usr/local/bin/bench watch
+2024-07-25 12:38:34,757 INFO /usr/local/bin/bench schedule
+2024-07-25 12:38:34,761 INFO /usr/local/bin/bench worker
+2024-07-25 12:38:51,559 INFO /usr/local/bin/bench new-site finse.localhost
+2024-07-25 12:39:21,248 INFO /usr/local/bin/bench use finse.localhost
+2024-07-25 12:39:25,466 INFO /usr/local/bin/bench start
+2024-07-25 12:39:25,655 INFO /usr/local/bin/bench watch
+2024-07-25 12:39:25,657 INFO /usr/local/bin/bench worker
+2024-07-25 12:39:25,680 INFO /usr/local/bin/bench serve --port 8000
+2024-07-25 12:39:25,684 INFO /usr/local/bin/bench schedule
+2024-07-25 12:40:43,638 INFO /usr/local/bin/bench get-app erpnext
+2024-07-25 12:40:44,992 LOG Getting erpnext
+2024-07-25 12:40:44,992 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git  --depth 1 --origin upstream
+2024-07-25 12:41:03,884 LOG Installing erpnext
+2024-07-25 12:41:03,884 DEBUG cd /home/karthik/Desktop/work/frappe-bench && /home/karthik/Desktop/work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/karthik/Desktop/work/frappe-bench/apps/erpnext 
+2024-07-25 12:41:09,394 DEBUG cd /home/karthik/Desktop/work/frappe-bench/apps/erpnext && yarn install --check-files
+2024-07-25 12:41:09,730 DEBUG bench build --app erpnext
+2024-07-25 12:41:09,809 INFO /usr/local/bin/bench build --app erpnext
+2024-07-25 12:41:13,778 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-25 12:41:41,653 INFO /usr/local/bin/bench --site finse.localhost install-app erpnext
+2024-07-25 12:42:33,267 INFO /usr/local/bin/bench --site finse.localhost reinstall
+2024-07-25 12:44:26,943 INFO /usr/local/bin/bench --site finse.localhost install-app erpnext
+2024-07-25 12:45:02,055 INFO /usr/local/bin/bench --site finse.localhost install-app erpnext
+2024-07-25 12:45:41,744 INFO /usr/local/bin/bench new-site row.localhost
+2024-07-25 12:46:16,375 INFO /usr/local/bin/bench --site row.localhost install-app erpnext
+2024-07-25 12:47:32,323 INFO /usr/local/bin/bench use row.localhost
+2024-07-25 12:47:48,849 INFO /usr/local/bin/bench start
+2024-07-25 12:47:49,046 INFO /usr/local/bin/bench serve --port 8000
+2024-07-25 12:47:49,048 INFO /usr/local/bin/bench schedule
+2024-07-25 12:47:49,048 INFO /usr/local/bin/bench worker
+2024-07-25 12:47:49,050 INFO /usr/local/bin/bench watch
+2024-07-25 12:55:02,260 INFO /usr/local/bin/bench new-app pocketfm
+2024-07-25 12:55:02,266 LOG creating new app pocketfm
+2024-07-25 12:55:50,155 LOG Installing pocketfm
+2024-07-25 12:55:50,157 DEBUG cd /home/karthik/Desktop/work/frappe-bench && /home/karthik/Desktop/work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/karthik/Desktop/work/frappe-bench/apps/pocketfm 
+2024-07-25 12:55:52,489 DEBUG bench build --app pocketfm
+2024-07-25 12:55:52,602 INFO /usr/local/bin/bench build --app pocketfm
+2024-07-25 12:55:54,230 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-25 13:03:12,254 INFO /usr/local/bin/bench start
+2024-07-25 13:03:12,563 INFO /usr/local/bin/bench serve --port 8000
+2024-07-25 13:03:12,567 INFO /usr/local/bin/bench worker
+2024-07-25 13:03:12,595 INFO /usr/local/bin/bench schedule
+2024-07-25 13:03:12,601 INFO /usr/local/bin/bench watch
+2024-07-25 13:06:08,584 INFO /usr/local/bin/bench start
+2024-07-25 13:06:08,880 INFO /usr/local/bin/bench watch
+2024-07-25 13:06:08,882 INFO /usr/local/bin/bench schedule
+2024-07-25 13:06:08,883 INFO /usr/local/bin/bench serve --port 8000
+2024-07-25 13:06:08,885 INFO /usr/local/bin/bench worker
+2024-07-25 13:08:48,883 INFO /usr/local/bin/bench --site finse.localhost install-app pocketfm
+2024-07-25 13:09:07,727 INFO /usr/local/bin/bench --site finse.localhost migrate
+2024-07-25 13:10:08,617 INFO /usr/local/bin/bench start
+2024-07-25 13:10:08,904 INFO /usr/local/bin/bench watch
+2024-07-25 13:10:08,904 INFO /usr/local/bin/bench worker
+2024-07-25 13:10:08,914 INFO /usr/local/bin/bench serve --port 8000
+2024-07-25 13:10:08,918 INFO /usr/local/bin/bench schedule
+2024-07-25 13:11:34,554 INFO /usr/local/bin/bench --site row.localhost install-app pocketfm
+2024-07-25 13:12:13,938 INFO /usr/local/bin/bench --site finse.localhost install-app pocketfm
+2024-07-25 13:18:37,017 INFO /usr/local/bin/bench get-app webshop https://github.com/frappe/webshop.git
+2024-07-25 13:18:37,027 LOG Getting webshop
+2024-07-25 13:18:37,027 DEBUG cd ./apps && git clone https://github.com/frappe/webshop.git  --depth 1 --origin upstream
+2024-07-25 13:18:38,625 LOG Installing webshop
+2024-07-25 13:18:38,626 DEBUG cd /home/karthik/Desktop/work/frappe-bench && /home/karthik/Desktop/work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/karthik/Desktop/work/frappe-bench/apps/webshop 
+2024-07-25 13:18:45,859 DEBUG bench build --app webshop
+2024-07-25 13:18:45,979 INFO /usr/local/bin/bench build --app webshop
+2024-07-25 13:18:48,257 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-25 13:19:18,314 INFO /usr/local/bin/bench --site row.localhost install-app webshop
+2024-07-25 13:20:08,429 INFO /usr/local/bin/bench --site row.localhost install-app webshop
+2024-07-25 13:20:37,492 INFO /usr/local/bin/bench get-app payments https://github.com/frappe/payments.git
+2024-07-25 13:20:37,502 LOG Getting payments
+2024-07-25 13:20:37,502 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2024-07-25 13:20:40,738 LOG Installing payments
+2024-07-25 13:20:40,739 DEBUG cd /home/karthik/Desktop/work/frappe-bench && /home/karthik/Desktop/work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/karthik/Desktop/work/frappe-bench/apps/payments 
+2024-07-25 13:20:52,012 DEBUG bench build --app payments
+2024-07-25 13:20:52,122 INFO /usr/local/bin/bench build --app payments
+2024-07-25 13:20:53,696 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-25 13:21:13,972 INFO /usr/local/bin/bench --site row.localhost install-app payments
+2024-07-25 13:21:29,029 INFO /usr/local/bin/bench --site your-site-name install-app webshop
+2024-07-25 13:21:45,647 INFO /usr/local/bin/bench --site row.localhost install-app webshop
+2024-07-25 13:22:11,849 INFO /usr/local/bin/bench --site row.localhost migrate
+2024-07-25 13:22:35,582 INFO /usr/local/bin/bench start
+2024-07-25 13:22:35,868 INFO /usr/local/bin/bench serve --port 8000
+2024-07-25 13:22:35,870 INFO /usr/local/bin/bench schedule
+2024-07-25 13:22:35,874 INFO /usr/local/bin/bench watch
+2024-07-25 13:22:35,879 INFO /usr/local/bin/bench worker
+2024-07-25 18:00:01,732 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-26 10:32:15,953 INFO /usr/local/bin/bench start
+2024-07-26 10:32:16,165 INFO /usr/local/bin/bench schedule
+2024-07-26 10:32:16,168 INFO /usr/local/bin/bench worker
+2024-07-26 10:32:16,182 INFO /usr/local/bin/bench serve --port 8000
+2024-07-26 10:32:16,183 INFO /usr/local/bin/bench watch
+2024-07-26 12:00:01,988 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-26 15:06:09,371 INFO /usr/local/bin/bench start
+2024-07-26 15:06:09,682 INFO /usr/local/bin/bench watch
+2024-07-26 15:06:09,685 INFO /usr/local/bin/bench worker
+2024-07-26 15:06:09,690 INFO /usr/local/bin/bench schedule
+2024-07-26 15:06:09,701 INFO /usr/local/bin/bench serve --port 8000
+2024-07-26 15:39:35,966 INFO /usr/local/bin/bench start
+2024-07-26 15:39:36,251 INFO /usr/local/bin/bench watch
+2024-07-26 15:39:36,258 INFO /usr/local/bin/bench serve --port 8000
+2024-07-26 15:39:36,259 INFO /usr/local/bin/bench worker
+2024-07-26 15:39:36,268 INFO /usr/local/bin/bench schedule
+2024-07-26 18:00:01,151 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-27 12:00:01,430 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-31 20:21:23,349 INFO /usr/local/bin/bench start
+2024-07-31 20:21:23,667 INFO /usr/local/bin/bench worker
+2024-07-31 20:21:23,669 INFO /usr/local/bin/bench serve --port 8000
+2024-07-31 20:21:23,671 INFO /usr/local/bin/bench schedule
+2024-07-31 20:21:23,675 INFO /usr/local/bin/bench watch
+2024-08-02 10:24:47,024 INFO /usr/local/bin/bench start
+2024-08-02 10:24:47,339 INFO /usr/local/bin/bench serve --port 8000
+2024-08-02 10:24:47,339 INFO /usr/local/bin/bench watch
+2024-08-02 10:24:47,342 INFO /usr/local/bin/bench schedule
+2024-08-02 10:24:47,353 INFO /usr/local/bin/bench worker
+2024-08-03 15:59:01,568 INFO /usr/local/bin/bench start
+2024-08-03 15:59:01,878 INFO /usr/local/bin/bench serve --port 8000
+2024-08-03 15:59:01,882 INFO /usr/local/bin/bench schedule
+2024-08-03 15:59:01,887 INFO /usr/local/bin/bench worker
+2024-08-03 15:59:01,890 INFO /usr/local/bin/bench watch
+2024-08-03 16:50:45,348 INFO /usr/local/bin/bench --site finse.localhost uninstall-app webshop
+2024-08-03 16:51:05,965 INFO /usr/local/bin/bench remove-app webshop
+2024-08-03 16:51:06,090 INFO /usr/local/bin/bench --site all list-apps --format json
+2024-08-03 16:51:06,807 WARNING /usr/local/bin/bench remove-app webshop executed with exit code 1
+2024-08-03 16:51:25,096 INFO /usr/local/bin/bench --site finse.localhost uninstall-app webshop
+2024-08-03 16:51:41,968 INFO /usr/local/bin/bench --site row.localhost uninstall-app webshop
+2024-08-03 16:53:24,057 INFO /usr/local/bin/bench --site row.localhost uninstall-app webshop
+2024-08-03 16:58:19,882 INFO /usr/local/bin/bench --site row.localhost uninstall-app webshop
+2024-08-03 16:58:54,837 INFO /usr/local/bin/bench remove-app webshop
+2024-08-03 16:58:54,958 INFO /usr/local/bin/bench --site all list-apps --format json
+2024-08-03 16:58:55,730 INFO /usr/local/bin/bench --site row.localhost list-apps
+2024-08-03 16:58:56,391 INFO /usr/local/bin/bench --site finse.localhost list-apps
+2024-08-03 16:58:56,918 DEBUG cd /home/karthik/Desktop/work/frappe-bench && /home/karthik/Desktop/work/frappe-bench/env/bin/python -m pip uninstall -y webshop
+2024-08-03 16:58:57,588 INFO App moved from apps/webshop to archived/apps/webshop-2024-08-03
+2024-08-03 16:58:57,591 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-08-03 16:59:21,603 INFO /usr/local/bin/bench start
+2024-08-03 17:00:10,022 INFO /usr/local/bin/bench start
+2024-08-03 17:00:30,309 INFO /usr/local/bin/bench dropsite row.localhost
+2024-08-03 17:01:49,009 INFO /usr/local/bin/bench drop-site row.localhost
+2024-08-03 17:03:15,899 INFO /usr/local/bin/bench drop-site row.localhost
+2024-08-03 17:03:35,988 INFO /usr/local/bin/bench drop-site row.localhost --force
+2024-08-03 17:06:40,734 INFO /usr/local/bin/bench start
+2024-08-03 17:07:51,702 INFO /usr/local/bin/bench start
+2024-08-03 17:07:51,977 INFO /usr/local/bin/bench serve --port 8000
+2024-08-03 17:07:51,988 INFO /usr/local/bin/bench watch
+2024-08-03 17:07:51,989 INFO /usr/local/bin/bench schedule
+2024-08-03 17:07:51,994 INFO /usr/local/bin/bench worker
+2024-08-03 17:08:58,484 INFO /usr/local/bin/bench drop-site finse.localhost --force
+2024-08-03 17:10:36,877 INFO /usr/local/bin/bench drop-site finse.localhost --force
+2024-08-03 17:10:57,335 INFO /usr/local/bin/bench new-site finse.localhost
+2024-08-03 17:11:57,955 INFO /usr/local/bin/bench start
+2024-08-03 17:11:58,241 INFO /usr/local/bin/bench serve --port 8000
+2024-08-03 17:11:58,246 INFO /usr/local/bin/bench watch
+2024-08-03 17:11:58,258 INFO /usr/local/bin/bench schedule
+2024-08-03 17:11:58,259 INFO /usr/local/bin/bench worker
+2024-08-03 17:18:22,690 INFO /usr/local/bin/bench start
+2024-08-03 17:18:22,974 INFO /usr/local/bin/bench watch
+2024-08-03 17:18:22,976 INFO /usr/local/bin/bench serve --port 8000
+2024-08-03 17:18:22,977 INFO /usr/local/bin/bench worker
+2024-08-03 17:18:22,980 INFO /usr/local/bin/bench schedule
+2024-08-03 17:27:18,566 INFO /usr/local/bin/bench get-app erpnext
+2024-08-03 17:29:23,458 INFO /usr/local/bin/bench get-app webshop
+2024-08-03 17:29:23,466 WARNING /usr/local/bin/bench get-app webshop executed with exit code 1
+2024-08-05 10:20:55,650 INFO /usr/local/bin/bench get-app webshop https://github.com/frappe/webshop.git
+2024-08-05 10:21:01,468 INFO App moved from apps/webshop to archived/apps/webshop-2024-08-05
+2024-08-05 10:21:01,472 LOG Getting webshop
+2024-08-05 10:21:01,472 DEBUG cd ./apps && git clone https://github.com/frappe/webshop.git  --depth 1 --origin upstream
+2024-08-05 10:21:24,160 LOG Installing webshop
+2024-08-05 10:21:24,161 DEBUG cd /home/karthik/Desktop/work/frappe-bench && /home/karthik/Desktop/work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/karthik/Desktop/work/frappe-bench/apps/webshop 
+2024-08-05 10:21:28,844 DEBUG bench build --app webshop
+2024-08-05 10:21:28,919 INFO /usr/local/bin/bench build --app webshop
+2024-08-05 10:21:30,854 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-08-05 10:24:38,629 INFO /usr/local/bin/bench --site finse.localhost install-app webshop
+2024-08-05 10:25:22,377 INFO /usr/local/bin/bench --site finse.localhost reinstall
+2024-08-05 10:25:57,375 INFO /usr/local/bin/bench start
+2024-08-05 10:25:57,595 INFO /usr/local/bin/bench watch
+2024-08-05 10:25:57,595 INFO /usr/local/bin/bench serve --port 8000
+2024-08-05 10:25:57,598 INFO /usr/local/bin/bench worker
+2024-08-05 10:25:57,617 INFO /usr/local/bin/bench schedule
+2024-08-05 10:26:06,946 INFO /usr/local/bin/bench --site finse.localhost install-app webshop
+2024-08-05 10:27:14,011 INFO /usr/local/bin/bench start
+2024-08-05 10:27:14,204 INFO /usr/local/bin/bench serve --port 8000
+2024-08-05 10:27:14,212 INFO /usr/local/bin/bench worker
+2024-08-05 10:27:14,241 INFO /usr/local/bin/bench schedule
+2024-08-05 10:27:14,241 INFO /usr/local/bin/bench watch
+2024-08-05 12:00:01,658 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-05 12:11:21,313 INFO /usr/local/bin/bench --site finse.localhost uninstall-app webshop
+2024-08-05 12:15:09,453 INFO /usr/local/bin/bench --site finse.localhost uninstall-app webshop
+2024-08-05 12:15:31,855 INFO /usr/local/bin/bench --site finse.localhost uninstall-app webshop
+2024-08-05 12:17:44,739 INFO /usr/local/bin/bench --site finse.localhost uninstall-app webshop
+2024-08-05 12:18:03,725 INFO /usr/local/bin/bench --site finse.localhost uninstall-app webshop
+2024-08-05 12:18:28,658 INFO /usr/local/bin/bench get-app webshop https://github.com/frappe/webshop.git
+2024-08-05 12:19:06,482 INFO /usr/local/bin/bench --site finse.localhost install-app webshop
+2024-08-05 12:19:57,276 INFO /usr/local/bin/bench start
+2024-08-05 12:21:35,590 INFO /usr/local/bin/bench start
+2024-08-05 12:22:26,755 INFO /usr/local/bin/bench start
+2024-08-05 12:22:26,953 INFO /usr/local/bin/bench schedule
+2024-08-05 12:22:26,956 INFO /usr/local/bin/bench worker
+2024-08-05 12:22:26,959 INFO /usr/local/bin/bench watch
+2024-08-05 12:22:26,960 INFO /usr/local/bin/bench serve --port 8000
+2024-08-05 16:08:37,197 INFO /usr/local/bin/bench start
+2024-08-05 16:08:37,523 INFO /usr/local/bin/bench serve --port 8000
+2024-08-05 16:08:37,525 INFO /usr/local/bin/bench watch
+2024-08-05 16:08:37,535 INFO /usr/local/bin/bench schedule
+2024-08-05 16:08:37,537 INFO /usr/local/bin/bench worker
+2024-08-05 18:00:01,640 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-16 17:51:03,914 INFO /usr/local/bin/bench start
+2024-08-16 17:51:53,207 INFO /usr/local/bin/bench start
+2024-08-16 17:51:53,483 INFO /usr/local/bin/bench serve --port 8000
+2024-08-16 17:51:53,484 INFO /usr/local/bin/bench schedule
+2024-08-16 17:51:53,484 INFO /usr/local/bin/bench worker
+2024-08-16 17:51:53,485 INFO /usr/local/bin/bench watch
+2024-08-16 17:54:32,197 INFO /usr/local/bin/bench new-app Political
+2024-08-16 17:54:32,202 LOG creating new app political
+2024-08-16 17:55:22,084 LOG Installing political
+2024-08-16 17:55:22,086 DEBUG cd /home/karthik/Desktop/work/frappe-bench && /home/karthik/Desktop/work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/karthik/Desktop/work/frappe-bench/apps/political 
+2024-08-16 17:55:26,242 DEBUG bench build --app political
+2024-08-16 17:55:26,356 INFO /usr/local/bin/bench build --app political
+2024-08-16 17:55:28,043 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-08-16 17:56:14,323 INFO /usr/local/bin/bench --site finse.localhost install-app political
+2024-08-16 17:56:36,598 INFO /usr/local/bin/bench --site finse.localhost migrate
+2024-08-16 17:57:09,630 INFO /usr/local/bin/bench starr
+2024-08-16 17:57:12,835 INFO /usr/local/bin/bench start
+2024-08-16 17:57:13,123 INFO /usr/local/bin/bench worker
+2024-08-16 17:57:13,123 INFO /usr/local/bin/bench watch
+2024-08-16 17:57:13,132 INFO /usr/local/bin/bench serve --port 8000
+2024-08-16 17:57:13,143 INFO /usr/local/bin/bench schedule
+2024-08-16 17:58:56,302 INFO /usr/local/bin/bench start
+2024-08-16 17:58:56,585 INFO /usr/local/bin/bench schedule
+2024-08-16 17:58:56,585 INFO /usr/local/bin/bench serve --port 8000
+2024-08-16 17:58:56,586 INFO /usr/local/bin/bench watch
+2024-08-16 17:58:56,587 INFO /usr/local/bin/bench worker
+2024-08-16 18:00:01,789 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-16 18:00:45,829 INFO /usr/local/bin/bench start
+2024-08-16 18:00:46,112 INFO /usr/local/bin/bench serve --port 8000
+2024-08-16 18:00:46,114 INFO /usr/local/bin/bench watch
+2024-08-16 18:00:46,115 INFO /usr/local/bin/bench schedule
+2024-08-16 18:00:46,135 INFO /usr/local/bin/bench worker
+2024-08-17 15:56:01,194 INFO /usr/local/bin/bench start
+2024-08-17 10:26:29,782 INFO /usr/local/bin/bench start
+2024-08-17 10:26:30,056 INFO /usr/local/bin/bench serve --port 8000
+2024-08-17 10:26:30,059 INFO /usr/local/bin/bench watch
+2024-08-17 10:26:30,061 INFO /usr/local/bin/bench schedule
+2024-08-17 10:26:30,062 INFO /usr/local/bin/bench worker
+2024-08-17 12:00:01,458 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-17 12:34:48,469 INFO /usr/local/bin/bench clear-cache
+2024-08-17 12:34:58,106 INFO /usr/local/bin/bench clear-website-cache
+2024-08-17 12:36:05,548 INFO /usr/local/bin/bench start
+2024-08-17 12:36:05,882 INFO /usr/local/bin/bench worker
+2024-08-17 12:36:05,885 INFO /usr/local/bin/bench watch
+2024-08-17 12:36:05,888 INFO /usr/local/bin/bench schedule
+2024-08-17 12:36:05,924 INFO /usr/local/bin/bench serve --port 8000
+2024-08-17 15:44:55,269 INFO /usr/local/bin/bench start
+2024-08-17 15:44:55,600 INFO /usr/local/bin/bench schedule
+2024-08-17 15:44:55,601 INFO /usr/local/bin/bench watch
+2024-08-17 15:44:55,617 INFO /usr/local/bin/bench serve --port 8000
+2024-08-17 15:44:55,626 INFO /usr/local/bin/bench worker
+2024-08-17 15:48:05,976 INFO /usr/local/bin/bench start
+2024-08-17 15:48:06,258 INFO /usr/local/bin/bench serve --port 8000
+2024-08-17 15:48:06,258 INFO /usr/local/bin/bench watch
+2024-08-17 15:48:06,260 INFO /usr/local/bin/bench worker
+2024-08-17 15:48:06,275 INFO /usr/local/bin/bench schedule
+2024-08-17 15:55:16,466 INFO /usr/local/bin/bench new-site mysite.localhost
+2024-08-17 15:55:30,218 INFO /usr/local/bin/bench new-site mysite.localhost
+2024-08-17 15:55:40,144 INFO /usr/local/bin/bench new-site mysite1.localhost
+2024-08-17 15:55:51,427 INFO /usr/local/bin/bench new-site mysite2.localhost
+2024-08-17 15:56:01,490 INFO /usr/local/bin/bench new-site mysite.localhost
+2024-08-17 15:56:41,352 INFO /usr/local/bin/bench start
+2024-08-17 15:56:41,654 INFO /usr/local/bin/bench worker
+2024-08-17 15:56:41,660 INFO /usr/local/bin/bench schedule
+2024-08-17 15:56:41,680 INFO /usr/local/bin/bench watch
+2024-08-17 15:56:41,681 INFO /usr/local/bin/bench serve --port 8000
+2024-08-17 15:57:11,854 INFO /usr/local/bin/bench --site mysite.localhost install-app political
+2024-08-17 15:57:51,779 INFO /usr/local/bin/bench start
+2024-08-17 15:57:52,070 INFO /usr/local/bin/bench serve --port 8000
+2024-08-17 15:57:52,074 INFO /usr/local/bin/bench watch
+2024-08-17 15:57:52,079 INFO /usr/local/bin/bench schedule
+2024-08-17 15:57:52,083 INFO /usr/local/bin/bench worker
+2024-08-17 16:01:04,462 INFO /usr/local/bin/bench drop-site mysite2.localhost
+2024-08-17 16:01:12,981 INFO /usr/local/bin/bench drop-site mysite2.localhost
+2024-08-17 16:02:55,135 INFO /usr/local/bin/bench start
+2024-08-17 16:02:55,417 INFO /usr/local/bin/bench watch
+2024-08-17 16:02:55,419 INFO /usr/local/bin/bench schedule
+2024-08-17 16:02:55,420 INFO /usr/local/bin/bench serve --port 8000
+2024-08-17 16:02:55,441 INFO /usr/local/bin/bench worker
+2024-08-17 16:05:10,011 INFO /usr/local/bin/bench start
+2024-08-17 16:05:10,290 INFO /usr/local/bin/bench serve --port 8000
+2024-08-17 16:05:10,291 INFO /usr/local/bin/bench watch
+2024-08-17 16:05:10,291 INFO /usr/local/bin/bench worker
+2024-08-17 16:05:10,291 INFO /usr/local/bin/bench schedule
+2024-08-17 16:05:24,576 INFO /usr/local/bin/bench start
+2024-08-17 16:05:24,855 INFO /usr/local/bin/bench watch
+2024-08-17 16:05:24,856 INFO /usr/local/bin/bench serve --port 8000
+2024-08-17 16:05:24,858 INFO /usr/local/bin/bench schedule
+2024-08-17 16:05:24,859 INFO /usr/local/bin/bench worker
+2024-08-17 16:06:41,949 INFO /usr/local/bin/bench start
+2024-08-17 16:06:42,227 INFO /usr/local/bin/bench watch
+2024-08-17 16:06:42,229 INFO /usr/local/bin/bench worker
+2024-08-17 16:06:42,229 INFO /usr/local/bin/bench schedule
+2024-08-17 16:06:42,235 INFO /usr/local/bin/bench serve --port 8000
