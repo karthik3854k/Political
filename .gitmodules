@@ -1,0 +1,8 @@
+[submodule "apps/frappe"]
+	path = apps/frappe
+	url = https://github.com/karthik3854k/frappe.git
+
+[submodule "apps/erpnext"]
+    path = apps/erpnext
+    url = https://github.com/karthik3854k/erpnext.git
+
