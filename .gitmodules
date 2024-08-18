@@ -1,3 +1,4 @@
+
 [submodule "apps/frappe"]
 	path = apps/frappe
 	url = https://github.com/karthik3854k/frappe.git
@@ -16,3 +17,6 @@
 [submodule "apps/political"]
     path = apps/political
     url = https://github.com/karthik3854k/political.git
+[submodule "apps/webshop"]
+    path = apps/webshop
+    url = https://github.com/karthik3854k/webshop.git
