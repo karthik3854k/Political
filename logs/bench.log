@@ -312,3 +312,4 @@
 2024-08-17 16:06:42,229 INFO /usr/local/bin/bench worker
 2024-08-17 16:06:42,229 INFO /usr/local/bin/bench schedule
 2024-08-17 16:06:42,235 INFO /usr/local/bin/bench serve --port 8000
+2024-08-18 12:00:01,344 INFO /usr/local/bin/bench --verbose --site all backup
