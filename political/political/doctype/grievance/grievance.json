@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-08-19 13:12:53.003037",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "father_name",
+  "mobile_number",
+  "column_break_ngxy",
+  "city__village",
+  "mandal",
+  "counseling_officer_section",
+  "officer",
+  "designation",
+  "authority",
+  "column_break_zvtx",
+  "status",
+  "department",
+  "authority_mobile_number",
+  "section_break_vezw",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "column_break_ngxy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "city__village",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "City / Village",
+   "options": "Village"
+  },
+  {
+   "fetch_from": "city__village.mandal",
+   "fieldname": "mandal",
+   "fieldtype": "Data",
+   "label": "Mandal",
+   "read_only": 1
+  },
+  {
+   "fieldname": "counseling_officer_section",
+   "fieldtype": "Section Break",
+   "label": "Counseling Officer"
+  },
+  {
+   "fieldname": "officer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Officer",
+   "options": "Officer"
+  },
+  {
+   "depends_on": "eval:!doc.__islocal\n",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Pending\nCancelled\nCompleted"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fetch_from": "officer.designation",
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Designation",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_zvtx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "officer.department",
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Department",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_vezw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "officer.authority",
+   "fieldname": "authority",
+   "fieldtype": "Data",
+   "label": "Authority",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "officer.authority_mobile_number",
+   "fieldname": "authority_mobile_number",
+   "fieldtype": "Data",
+   "label": "Authority Mobile Number",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-19 14:56:31.361196",
+ "modified_by": "Administrator",
+ "module": "political",
+ "name": "Grievance",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

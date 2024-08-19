@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-08-19 13:20:48.094802",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "department",
+  "designation",
+  "authority",
+  "column_break_kwtp",
+  "city__village",
+  "mobile_number",
+  "authority_mobile_number",
+  "gmail"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Link",
+   "label": "Designation",
+   "options": "Designation"
+  },
+  {
+   "fieldname": "authority",
+   "fieldtype": "Data",
+   "label": "Authority"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "gmail",
+   "fieldtype": "Data",
+   "label": "Gmail"
+  },
+  {
+   "fieldname": "column_break_kwtp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "authority_mobile_number",
+   "fieldtype": "Data",
+   "label": "Authority Mobile Number"
+  },
+  {
+   "fieldname": "city__village",
+   "fieldtype": "Data",
+   "label": "City / Village"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-19 14:40:35.526939",
+ "modified_by": "Administrator",
+ "module": "political",
+ "name": "Officer",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "department,designation,city__village",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

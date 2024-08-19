@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:village_name",
+ "creation": "2024-08-19 13:23:37.725945",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "village_name",
+  "mandal"
+ ],
+ "fields": [
+  {
+   "fieldname": "village_name",
+   "fieldtype": "Data",
+   "label": "City / Village",
+   "unique": 1
+  },
+  {
+   "fieldname": "mandal",
+   "fieldtype": "Data",
+   "label": "Mandal"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-19 14:37:12.757375",
+ "modified_by": "Administrator",
+ "module": "political",
+ "name": "Village",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "mandal",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
