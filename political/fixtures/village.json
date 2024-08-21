@@ -1,0 +1,722 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.184183",
+  "name": "75 Tyallur",
+  "village_name": "75 Tyallur"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.194368",
+  "name": "Balusupadu",
+  "village_name": "Balusupadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.198716",
+  "name": "Chinamakkena",
+  "village_name": "Chinamakkena"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.204675",
+  "name": "Garapadu",
+  "village_name": "Garapadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.210411",
+  "name": "Hussainnagaram",
+  "village_name": "Hussainnagaram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.215475",
+  "name": "Jalalpuram",
+  "village_name": "Jalalpuram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.220592",
+  "name": "Kambhampadu",
+  "village_name": "Kambhampadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.225870",
+  "name": "Kasipadu",
+  "village_name": "Kasipadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.230619",
+  "name": "Lagadapadu",
+  "village_name": "Lagadapadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.235595",
+  "name": "Lingamguntla",
+  "village_name": "Lingamguntla"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.240682",
+  "name": "Mussapuram",
+  "village_name": "Mussapuram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.245383",
+  "name": "Patibandla",
+  "village_name": "Patibandla"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.250227",
+  "name": "Pedakurapadu",
+  "village_name": "Pedakurapadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-19 14:33:55.255466",
+  "name": "Ramapuram",
+  "village_name": "Ramapuram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.260901",
+  "name": "Ananthavaram",
+  "village_name": "Ananthavaram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.265324",
+  "name": "Andukuru",
+  "village_name": "Andukuru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.270090",
+  "name": "Balemarru",
+  "village_name": "Balemarru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.274998",
+  "name": "Bayyavaram",
+  "village_name": "Bayyavaram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.280389",
+  "name": "Dodleru",
+  "village_name": "Dodleru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.285592",
+  "name": "Garikapadu",
+  "village_name": "Garikapadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.291266",
+  "name": "Gudipadu",
+  "village_name": "Gudipadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.296609",
+  "name": "Hassanbada",
+  "village_name": "Hassanbada"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.302070",
+  "name": "Krosuru",
+  "village_name": "Krosuru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.307466",
+  "name": "Parupalle",
+  "village_name": "Parupalle"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.312813",
+  "name": "Peesapadu",
+  "village_name": "Peesapadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.318509",
+  "name": "Thalluru",
+  "village_name": "Thalluru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.324168",
+  "name": "Vipparla",
+  "village_name": "Vipparla"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.329726",
+  "name": "Vutukuru",
+  "village_name": "Vutukuru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-19 14:33:55.335199",
+  "name": "Vuyyandana",
+  "village_name": "Vuyyandana"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.340525",
+  "name": "Amaravathi",
+  "village_name": "Amaravathi"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.346277",
+  "name": "Attalur",
+  "village_name": "Attalur"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.353366",
+  "name": "Dharanikota",
+  "village_name": "Dharanikota"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.359219",
+  "name": "Didugu",
+  "village_name": "Didugu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.364998",
+  "name": "Endroyi",
+  "village_name": "Endroyi"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.370672",
+  "name": "Jupudi",
+  "village_name": "Jupudi"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.376015",
+  "name": "Karlapudi",
+  "village_name": "Karlapudi"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.381726",
+  "name": "Lingapuram",
+  "village_name": "Lingapuram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.387221",
+  "name": "Malladi",
+  "village_name": "Malladi"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.392927",
+  "name": "Munugodu",
+  "village_name": "Munugodu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.397583",
+  "name": "Narukullapadu",
+  "village_name": "Narukullapadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.402476",
+  "name": "Nemalikallu",
+  "village_name": "Nemalikallu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.407485",
+  "name": "Pedda Madduru",
+  "village_name": "Pedda Madduru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.412239",
+  "name": "Pondugala",
+  "village_name": "Pondugala"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.417001",
+  "name": "Unguturu",
+  "village_name": "Unguturu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-19 14:33:55.421982",
+  "name": "Vykuntapuram",
+  "village_name": "Vykuntapuram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.432013",
+  "name": "Ambadipudi",
+  "village_name": "Ambadipudi"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.436922",
+  "name": "Challagariga",
+  "village_name": "Challagariga"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.442189",
+  "name": "Chamarru",
+  "village_name": "Chamarru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.447310",
+  "name": "Chigurupadu",
+  "village_name": "Chigurupadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.452027",
+  "name": "Chintapalle",
+  "village_name": "Chintapalle"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.457295",
+  "name": "Ginjupalle",
+  "village_name": "Ginjupalle"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.462597",
+  "name": "Kastala Agraharam",
+  "village_name": "Kastala Agraharam"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.467782",
+  "name": "Kogantivaripalem",
+  "village_name": "Kogantivaripalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.472587",
+  "name": "Konduru",
+  "village_name": "Konduru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.477819",
+  "name": "Konuru",
+  "village_name": "Konuru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.482859",
+  "name": "Madipadu Agraharam",
+  "village_name": "Madipadu Agraharam"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.487773",
+  "name": "Madipadu Seri",
+  "village_name": "Madipadu Seri"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.492726",
+  "name": "Mittapalem",
+  "village_name": "Mittapalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.497880",
+  "name": "Orvakallu",
+  "village_name": "Orvakallu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.503133",
+  "name": "Pedapalem",
+  "village_name": "Pedapalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.508230",
+  "name": "Taduvoy",
+  "village_name": "Taduvoy"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.513574",
+  "name": "Tallacheruvu",
+  "village_name": "Tallacheruvu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.518937",
+  "name": "Velpuru",
+  "village_name": "Velpuru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.524145",
+  "name": "Bellamkonda",
+  "village_name": "Bellamkonda"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.528932",
+  "name": "Bodanam",
+  "village_name": "Bodanam"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.534375",
+  "name": "Chandrajupalem",
+  "village_name": "Chandrajupalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.539751",
+  "name": "Chityala",
+  "village_name": "Chityala"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.545159",
+  "name": "Emmajigudem",
+  "village_name": "Emmajigudem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.550875",
+  "name": "Kethavaram",
+  "village_name": "Kethavaram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.555671",
+  "name": "Kolluru",
+  "village_name": "Kolluru"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.561040",
+  "name": "Machayapalem",
+  "village_name": "Machayapalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.566474",
+  "name": "Mannesultanpalem",
+  "village_name": "Mannesultanpalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.571465",
+  "name": "Papayapalem",
+  "village_name": "Papayapalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.576266",
+  "name": "Pulichinta",
+  "village_name": "Pulichinta"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.581511",
+  "name": "Vannayapalem",
+  "village_name": "Vannayapalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-19 14:33:55.586856",
+  "name": "Venkatayapalem",
+  "village_name": "Venkatayapalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-21 12:10:44.970027",
+  "name": "Abbarajupalem",
+  "village_name": "Abbarajupalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-21 12:10:44.977144",
+  "name": "Butchiahpalem",
+  "village_name": "Butchiahpalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Pedakurapadu",
+  "modified": "2024-08-21 12:10:44.982107",
+  "name": "Podapadu",
+  "village_name": "Podapadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-21 12:10:45.084851",
+  "name": "Nagavaram",
+  "village_name": "Nagavaram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-21 12:10:45.091216",
+  "name": "Gadhevaripalem",
+  "village_name": "Gadhevaripalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-21 12:10:45.096191",
+  "name": "Avularipalem",
+  "village_name": "Avularipalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-21 12:10:45.101405",
+  "name": "Perakipadhu",
+  "village_name": "Perakipadhu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-21 12:10:45.106566",
+  "name": "Errabalem",
+  "village_name": "Errabalem"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Krosuru",
+  "modified": "2024-08-21 12:10:45.111227",
+  "name": "Sinuvass Tandha",
+  "village_name": "Sinuvass Tandha"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-21 12:10:45.140289",
+  "name": "Enikapadu",
+  "village_name": "Enikapadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-21 12:10:45.153205",
+  "name": "Lemalle",
+  "village_name": "Lemalle"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Amaravathi",
+  "modified": "2024-08-21 12:10:45.185550",
+  "name": "Puttipadu",
+  "village_name": "Puttipadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Bellamkonda",
+  "modified": "2024-08-21 12:10:45.322003",
+  "name": "Kandipadu",
+  "village_name": "Kandipadu"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Village",
+  "mandal": "Atchampeta",
+  "modified": "2024-08-19 14:33:55.427244",
+  "name": "Atchampeta",
+  "village_name": "Atchampeta"
+ }
+]

@@ -62,13 +62,14 @@
   },
   {
    "fieldname": "city__village",
-   "fieldtype": "Data",
-   "label": "City / Village"
+   "fieldtype": "Link",
+   "label": "City / Village",
+   "options": "Village"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-19 14:40:35.526939",
+ "modified": "2024-08-21 11:33:26.802595",
  "modified_by": "Administrator",
  "module": "political",
  "name": "Officer",
